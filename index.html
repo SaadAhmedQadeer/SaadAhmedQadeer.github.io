@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Saad Ahmed Qadeer — Data Scientist &amp; AI Researcher</title>
+<meta name="description" content="Data scientist and prospective MS/PhD candidate. Mechanistic interpretability of LLMs and applied ML. Meta Hacker Cup 2025, 42nd globally." />
+<meta name="theme-color" content="#0E0F13" />
+
+<meta property="og:title" content="Saad Ahmed Qadeer — Data Scientist &amp; AI Researcher" />
+<meta property="og:description" content="Mechanistic interpretability of LLMs and applied ML. Meta Hacker Cup 2025, 42nd globally (top 0.3%)." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://saadahmedqadeer.github.io/" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232D4EFF'/%3E%3Ctext x='16' y='22' font-family='Inter,system-ui,sans-serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23fff'%3ES%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ─────────── NAV ─────────── -->
+<header class="nav" role="banner">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand" aria-label="Home">
+      <span class="nav__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="currentColor"/><text x="12" y="17" text-anchor="middle" font-family="Geist, system-ui, sans-serif" font-size="13" font-weight="700" fill="var(--paper)">S</text></svg>
+      </span>
+      <span class="nav__name">Saad Ahmed Qadeer</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#research">Research</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light / dark theme" title="Toggle theme">
+        <svg class="theme-toggle__sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="theme-toggle__moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <button class="nav__menu" id="navMenu" aria-label="Open menu" aria-expanded="false" aria-controls="navDrawer">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav__drawer" id="navDrawer" hidden>
+    <a href="#work">Work</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="top">
+
+    <!-- Quiet attention-pattern background. Real mech-interp aesthetic, ~10% opacity. -->
+    <svg class="hero__bg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <pattern id="dotgrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="1.4" fill="currentColor" />
+        </pattern>
+      </defs>
+      <rect width="800" height="600" fill="url(#dotgrid)" />
+      <g transform="translate(560,80)" opacity="0.55">
+        <rect x="0" y="0" width="200" height="200" fill="none" stroke="currentColor" stroke-width="1"/>
+        <g>
+          <rect x="0"   y="0"   width="25" height="25" fill="currentColor" opacity="0.9"/>
+          <rect x="25"  y="25"  width="25" height="25" fill="currentColor" opacity="0.75"/>
+          <rect x="50"  y="50"  width="25" height="25" fill="currentColor" opacity="0.6"/>
+          <rect x="75"  y="75"  width="25" height="25" fill="currentColor" opacity="0.5"/>
+          <rect x="100" y="100" width="25" height="25" fill="currentColor" opacity="0.4"/>
+          <rect x="125" y="125" width="25" height="25" fill="currentColor" opacity="0.3"/>
+          <rect x="150" y="150" width="25" height="25" fill="currentColor" opacity="0.22"/>
+          <rect x="175" y="175" width="25" height="25" fill="currentColor" opacity="0.15"/>
+          <rect x="0"   y="100" width="25" height="25" fill="currentColor" opacity="0.35"/>
+          <rect x="25"  y="125" width="25" height="25" fill="currentColor" opacity="0.28"/>
+          <rect x="100" y="0"   width="25" height="25" fill="currentColor" opacity="0.3"/>
+          <rect x="150" y="25"  width="25" height="25" fill="currentColor" opacity="0.2"/>
+          <rect x="75"  y="150" width="25" height="25" fill="currentColor" opacity="0.18"/>
+        </g>
+        <g stroke="currentColor" stroke-width="0.75" opacity="0.5">
+          <line x1="0" y1="0" x2="0" y2="-12"/><line x1="50" y1="0" x2="50" y2="-8"/><line x1="100" y1="0" x2="100" y2="-8"/><line x1="150" y1="0" x2="150" y2="-8"/><line x1="200" y1="0" x2="200" y2="-12"/>
+          <line x1="0" y1="0" x2="-12" y2="0"/><line x1="0" y1="50" x2="-8" y2="50"/><line x1="0" y1="100" x2="-8" y2="100"/><line x1="0" y1="150" x2="-8" y2="150"/><line x1="0" y1="200" x2="-12" y2="200"/>
+        </g>
+      </g>
+    </svg>
+
+    <div class="hero__container">
+      <p class="hero__eyebrow">
+        <span class="hero__eyebrow-dot"></span>
+        Looking for MS / PhD Positions
+      </p>
+
+      <div class="hero__top">
+        <div class="hero__namewrap">
+          <h1 class="hero__name">
+            <span class="hero__line1">Saad Ahmed</span>
+            <span class="hero__line2"><em>Qadeer</em>.</span>
+          </h1>
+        </div>
+
+        <div class="hero__photo" aria-hidden="false">
+          <!-- TODO: add Saad's photo at /assets/photo.jpg (square, ~600×600px) -->
+          <img src="assets/photo.jpg" alt="Portrait of Saad Ahmed Qadeer" loading="lazy" onerror="this.parentElement.classList.add('hero__photo--empty'); this.remove();" />
+          <span class="hero__photo-fallback" aria-hidden="true">SAQ</span>
+        </div>
+      </div>
+
+      <div class="hero__bottom">
+        <p class="hero__lede">
+          Data scientist &amp; AI researcher working on <strong>mechanistic interpretability of LLMs</strong>, and <strong>applied ML where methods meet hard problems</strong>.
+        </p>
+
+        <div class="hero__cta">
+          <!-- TODO: drop your CV at /assets/cv.pdf -->
+          <a class="btn btn--primary" href="assets/cv.pdf" download>
+            Download CV
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M12 4v12m0 0l-5-5m5 5l5-5M5 20h14"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#contact">Get in touch →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="section section--about" id="about">
+    <div class="container">
+      <div class="about">
+        <div class="about__left">
+          <p class="section-label">About</p>
+          <h2 class="display">
+            Researcher with a <em>builder's instinct.</em>
+          </h2>
+        </div>
+        <div class="about__right">
+          <p>
+            I'm a data scientist and recent BS Data Science graduate (<strong>Bronze Medalist</strong>,
+            CGPA 3.5/4.0). My work spans applied machine learning, deep learning, and most recently
+            <strong>mechanistic interpretability</strong> of large language models.
+          </p>
+          <p>
+            I split my time between freelance consulting (<strong>100% Job Success</strong>, Top-Rated
+            on Upwork), teaching ML and statistics at iCodeGuru, and chasing serious research
+            problems — from RNA 3D structure prediction at Stanford to fire-detection algorithms
+            with N5 Sensors (USA).
+          </p>
+          <p>
+            Looking for an MS or PhD where I can dig into <em>interpretability, foundation models,
+            or applied ML for science</em> — anywhere the methods meet hard real-world questions.
+          </p>
+
+          <ul class="about__meta">
+            <li><span>Based in</span> Islamabad, PK</li>
+            <li><span>Looking for</span> MS / PhD · Fall 2026</li>
+            <li><span>Status</span> Open to relocation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WORK ═══════════════ -->
+  <section class="section section--work" id="work">
+    <div class="container">
+      <div class="section__head">
+        <p class="section-label">Work</p>
+        <h2 class="display">Experience.</h2>
+      </div>
+
+      <div class="exp">
+        <article class="exp__item">
+          <div class="exp__when">
+            <span class="exp__year">Feb 2025</span>
+            <span class="exp__dash">→</span>
+            <span class="exp__year">Oct 2025</span>
+          </div>
+          <div class="exp__body">
+            <h3>
+              <span class="exp__logo" aria-hidden="true">
+                <!-- TODO: replace with actual N5 Sensors logo at /assets/logos/n5sensors.svg -->
+                <span class="exp__logo-fallback">N5</span>
+              </span>
+              <span class="exp__title">Statistical Data Analyst <span class="exp__org">· N5 Sensors</span></span>
+            </h3>
+            <p class="exp__where">Remote · USA</p>
+            <ul class="exp__points">
+              <li>Collaborated with PhD researchers to optimize detection thresholds for early-fire warning systems.</li>
+              <li>Built anomaly-detection pipelines and conducted LTE connectivity analysis (RSRP, RSRQ).</li>
+              <li>End-to-end statistical analysis of real-world fire events and gas-detection sensor data.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp__item">
+          <div class="exp__when">
+            <span class="exp__year">Jul 2022</span>
+            <span class="exp__dash">→</span>
+            <span class="exp__year exp__year--now">Now</span>
+          </div>
+          <div class="exp__body">
+            <h3>
+              <span class="exp__logo" aria-hidden="true">
+                <img src="https://cdn.simpleicons.org/upwork" alt="" width="22" height="22" loading="lazy" />
+              </span>
+              <span class="exp__title">Independent Data Science Consultant <span class="exp__org">· Upwork</span></span>
+            </h3>
+            <p class="exp__where">International Clients · Remote</p>
+            <ul class="exp__points">
+              <li><strong>100% Job Success Score</strong> across 6+ projects in predictive modelling and NLP.</li>
+              <li>Top-Rated freelancer status — repeat clients across multiple regions.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ RESEARCH / PROJECTS ═══════════════ -->
+  <section class="section section--research" id="research">
+    <div class="container">
+      <div class="section__head">
+        <p class="section-label">Research &amp; Projects</p>
+        <h2 class="display">Selected work.</h2>
+      </div>
+
+      <div class="projects">
+
+        <article class="project">
+          <div class="project__top">
+            <span class="project__num">01</span>
+            <svg class="project__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="5"  cy="5"  r="2"/><circle cx="5"  cy="12" r="2"/><circle cx="5"  cy="19" r="2"/>
+              <circle cx="13" cy="8"  r="2"/><circle cx="13" cy="16" r="2"/>
+              <circle cx="21" cy="12" r="2"/>
+              <path d="M7 5 l4 3M7 12 l4 -4M7 12 l4 4M7 19 l4 -3M15 8 l4 4M15 16 l4 -4"/>
+            </svg>
+          </div>
+          <div class="project__tags">
+            <span>GPT-2</span><span>Interpretability</span>
+          </div>
+          <h3>Mechanistic Interpretability &amp; In-Context Learning</h3>
+          <p>
+            Replicated Wang et al. (EMNLP '23) on GPT-2-Small, then formalized a new metric —
+            <em>Label Surface Form Sensitivity</em> — exposing a gap in Anchor Theory.
+            Engineered a training-free embedding correction that recovers the lost accuracy.
+          </p>
+          <div class="project__metrics">
+            <div class="project__metric project__metric--lead">
+              <b>80.5%</b><span>Probing accuracy</span>
+            </div>
+            <div class="project__metric">
+              <b>11–12%</b><span>Collapse exposed</span>
+            </div>
+            <div class="project__metric">
+              <b>80–100%</b><span>Gap recovered</span>
+            </div>
+          </div>
+          <!-- TODO: add paper draft + GitHub URLs to project 01 -->
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <span class="project__num">02</span>
+            <svg class="project__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 3 C 11 7, 11 13, 5 17 C -1 21, -1 24, 5 24" transform="translate(2 -1)"/>
+              <path d="M13 3 C 7 7, 7 13, 13 17 C 19 21, 19 24, 13 24" transform="translate(2 -1)"/>
+              <line x1="7"  y1="6"  x2="15" y2="6"/>
+              <line x1="6"  y1="11" x2="16" y2="11"/>
+              <line x1="7"  y1="16" x2="15" y2="16"/>
+            </svg>
+          </div>
+          <div class="project__tags">
+            <span>Stanford AI Research</span><span>RhoFold+</span>
+          </div>
+          <h3>De Novo RNA 3D Structure Prediction</h3>
+          <p>
+            Deployed a RhoFold+ pipeline with MSA subsampling for structural ensembles, plus a
+            physics-informed random-walk fallback for ultra-long sequences (&gt;440 nt) that bypasses
+            embedding limits while enforcing valid C1' backbone geometry.
+          </p>
+          <div class="project__metrics">
+            <div class="project__metric project__metric--lead">
+              <b>0.507</b><span>Peak TM-score (9IWF)</span>
+            </div>
+            <div class="project__metric">
+              <b>0.139</b><span>Zero-shot baseline</span>
+            </div>
+            <div class="project__metric">
+              <b>440+ nt</b><span>Sequence support</span>
+            </div>
+          </div>
+          <!-- TODO: add GitHub + writeup URLs to project 02 -->
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <span class="project__num">03</span>
+            <svg class="project__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="5"  r="2"/>
+              <circle cx="5"  cy="13" r="2"/>
+              <circle cx="19" cy="13" r="2"/>
+              <circle cx="9"  cy="20" r="2"/>
+              <circle cx="15" cy="20" r="2"/>
+              <line x1="12" y1="7"  x2="6"  y2="11"/>
+              <line x1="12" y1="7"  x2="18" y2="11"/>
+              <line x1="6"  y1="14" x2="9"  y2="18"/>
+              <line x1="18" y1="14" x2="15" y2="18"/>
+              <line x1="9"  y1="20" x2="15" y2="20"/>
+            </svg>
+          </div>
+          <div class="project__tags">
+            <span>Knowledge Graphs</span><span>RAG</span>
+          </div>
+          <h3>Graph-RAG: Mitigating LLM Hallucinations</h3>
+          <p>
+            Hybrid retrieval pipeline fusing Neo4j knowledge graphs with BGE-Large dense vector
+            search. Containerized full-stack system with live A/B testing REST APIs.
+            Validated with McNemar's test and bootstrap intervals.
+          </p>
+          <div class="project__metrics">
+            <div class="project__metric project__metric--lead">
+              <b>0.871</b><span>RAGAS Faithfulness</span>
+            </div>
+            <div class="project__metric">
+              <b>+17.4%</b><span>vs. Naive RAG</span>
+            </div>
+            <div class="project__metric">
+              <b>+23.0%</b><span>On 3-hop queries</span>
+            </div>
+          </div>
+          <!-- TODO: add GitHub + demo URLs to project 03 -->
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <span class="project__num">04</span>
+            <svg class="project__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="3"/>
+              <path d="M12 8v8M8 12h8"/>
+            </svg>
+          </div>
+          <div class="project__tags">
+            <span>Medical AI</span><span>Thesis</span>
+          </div>
+          <h3>Multilabel Chest X-Ray Pathology Classification</h3>
+          <p>
+            Undergraduate thesis. End-to-end multilabel pipeline for 7,376 NIH ChestX-ray14
+            radiographs. DenseNet-121 + ResNet50V2 stacking ensemble with Asymmetric Loss for
+            class imbalance, validated with Grad-CAM attention maps.
+          </p>
+          <div class="project__metrics">
+            <div class="project__metric project__metric--lead">
+              <b>0.780</b><span>Macro AUC-ROC</span>
+            </div>
+            <div class="project__metric">
+              <b>0.862</b><span>AUC (Effusion)</span>
+            </div>
+            <div class="project__metric">
+              <b>7,376</b><span>Radiographs</span>
+            </div>
+          </div>
+          <!-- TODO: add GitHub + report URLs to project 04 -->
+        </article>
+
+        <article class="project">
+          <div class="project__top">
+            <span class="project__num">05</span>
+            <svg class="project__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="2.2"/>
+              <path d="M12 12 L12 4  M12 12 L19 16  M12 12 L5 16"/>
+              <path d="M12 4  C 14 5, 15 6, 15 8"/>
+              <path d="M19 16 C 18 14, 17 13, 15 13"/>
+              <path d="M5 16  C 6 14, 7 13, 9 13"/>
+            </svg>
+          </div>
+          <div class="project__tags">
+            <span>Bayesian DL</span><span>Uncertainty</span>
+          </div>
+          <h3>Probabilistic RUL Estimation for Turbofan Engines</h3>
+          <p>
+            Bayesian LSTM with MC Dropout approximating deep Gaussian posteriors, on NASA
+            C-MAPSS FD001. Train-only scaling and sliding-window tensors to prevent leakage;
+            95% prediction intervals that narrow near failure.
+          </p>
+          <div class="project__metrics">
+            <div class="project__metric project__metric--lead">
+              <b>15.18</b><span>RMSE (FD001)</span>
+            </div>
+            <div class="project__metric">
+              <b>95%</b><span>Calibrated intervals</span>
+            </div>
+            <div class="project__metric">
+              <b>NASA</b><span>Asymmetric Score</span>
+            </div>
+          </div>
+          <!-- TODO: add GitHub URL to project 05 -->
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TEACHING ═══════════════ -->
+  <section class="section section--teaching" id="teaching">
+    <div class="container">
+      <div class="section__head">
+        <p class="section-label">Teaching</p>
+        <h2 class="display">Teaching.</h2>
+      </div>
+
+      <div class="teach">
+        <article class="teach__card">
+          <p class="teach__when">Feb – Mar 2026</p>
+          <h3>Advanced Statistics with Projects</h3>
+          <p class="teach__org">iCodeGuru · California, USA</p>
+          <p class="teach__desc">
+            Designed and taught a hands-on statistics course to 40+ underprivileged students,
+            covering practical data-science applications and statistical modeling. All sessions
+            documented and recorded.
+          </p>
+          <!-- TODO: drop in a real YouTube/Drive URL, then change this <span> to an <a href="..."> -->
+          <span class="teach__watch teach__watch--soon" aria-label="Lecture recording coming soon">
+            <span class="teach__play" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </span>
+            Watch a lecture
+            <span class="teach__soon">Coming soon</span>
+          </span>
+        </article>
+
+        <article class="teach__card">
+          <p class="teach__when">May 2026</p>
+          <h3>Intro to Generative AI with LangChain &amp; Hugging Face</h3>
+          <p class="teach__org">iCodeGuru · California, USA</p>
+          <p class="teach__desc">
+            Workshop covering generative AI fundamentals, LangChain orchestration, and Hugging
+            Face pipelines, taught through practical end-to-end demonstrations.
+          </p>
+          <!-- TODO: drop in a real YouTube/Drive URL, then change this <span> to an <a href="..."> -->
+          <span class="teach__watch teach__watch--soon" aria-label="Lecture recording coming soon">
+            <span class="teach__play" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </span>
+            Watch a lecture
+            <span class="teach__soon">Coming soon</span>
+          </span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ AWARDS ═══════════════ -->
+  <section class="section section--awards" id="awards">
+    <div class="container">
+      <div class="section__head">
+        <p class="section-label">Honors</p>
+        <h2 class="display">Awards &amp; recognition.</h2>
+      </div>
+
+      <div class="awards">
+
+        <article class="award">
+          <div class="award__logo">
+            <img src="https://cdn.simpleicons.org/meta" alt="Meta logo" width="44" height="44" loading="lazy" />
+          </div>
+          <div class="award__body">
+            <p class="award__metric">42<sup>nd</sup> globally</p>
+            <h3>Meta Hacker Cup 2025</h3>
+            <p>AI Track — out of 13,779 participants. Top 0.3% globally.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__logo">
+            <!-- TODO: replace with Islamia University of Bahawalpur crest at /assets/logos/iub.svg -->
+            <span class="award__logo-fallback" aria-hidden="true">IUB</span>
+          </div>
+          <div class="award__body">
+            <p class="award__metric">Bronze Medal</p>
+            <h3>Outstanding Academic Performance</h3>
+            <p>BS Data Science · Islamia University of Bahawalpur.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__logo">
+            <img src="https://cdn.simpleicons.org/unitednations" alt="United Nations logo" width="44" height="44" loading="lazy" />
+          </div>
+          <div class="award__body">
+            <p class="award__metric">Fellow</p>
+            <h3>Millennium Fellowship</h3>
+            <p>UN Academic Impact leadership program.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 4h12v4a6 6 0 0 1-12 0V4z"/>
+              <path d="M6 6H3v2a3 3 0 0 0 3 3"/>
+              <path d="M18 6h3v2a3 3 0 0 1-3 3"/>
+              <line x1="9" y1="20" x2="15" y2="20"/>
+              <line x1="12" y1="14" x2="12" y2="20"/>
+            </svg>
+          </div>
+          <div class="award__body">
+            <p class="award__metric">10+ competitions</p>
+            <h3>International AI Competitions</h3>
+            <p>Stanford, Google DeepMind, Kaggle, and more.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__logo">
+            <!-- Custom Harvard / CS50 shield SVG (Simple Icons does not host Harvard officially) -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3 L20 6 V12 C 20 16, 16 19, 12 21 C 8 19, 4 16, 4 12 V6 Z"/>
+              <text x="12" y="15" text-anchor="middle" font-family="Geist, system-ui, sans-serif" font-size="6" font-weight="700" fill="currentColor" stroke="none">CS50</text>
+            </svg>
+          </div>
+          <div class="award__body">
+            <p class="award__metric">Achiever</p>
+            <h3>Harvard CS50x Puzzle Day</h3>
+            <p>Harvard University global problem-solving event.</p>
+          </div>
+        </article>
+
+        <article class="award">
+          <div class="award__logo">
+            <img src="https://cdn.simpleicons.org/upwork" alt="Upwork logo" width="44" height="44" loading="lazy" />
+          </div>
+          <div class="award__body">
+            <p class="award__metric">Top-Rated · 100%</p>
+            <h3>Upwork Job Success</h3>
+            <p>Consistent client outcomes as a freelance data scientist.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TOOLKIT ═══════════════ -->
+  <section class="section section--skills" id="skills">
+    <div class="container">
+      <div class="section__head">
+        <p class="section-label">Toolkit</p>
+        <h2 class="display">What I build with.</h2>
+      </div>
+
+      <div class="stack">
+        <div class="stack__group">
+          <p class="stack__label">Languages</p>
+          <p class="stack__list">Python · SQL · C++ · MATLAB · LaTeX</p>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">ML &amp; AI</p>
+          <p class="stack__list">PyTorch · TensorFlow · Scikit-Learn · XGBoost · Hugging Face · LangChain</p>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Data &amp; Viz</p>
+          <p class="stack__list">Pandas · NumPy · SciPy · Matplotlib · Seaborn · Power BI</p>
+        </div>
+        <div class="stack__group">
+          <p class="stack__label">Dev &amp; Infra</p>
+          <p class="stack__list">Git · Docker · Linux · Jupyter · VS Code · AWS · Neo4j · MLflow</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="section section--contact" id="contact">
+    <div class="container">
+      <p class="section-label">Get in touch</p>
+      <h2 class="contact__title">
+        Working on something<br />
+        <em>genuinely interesting?</em>
+      </h2>
+
+      <a class="contact__email" href="mailto:saad.qadeer.ds@gmail.com">
+        saad.qadeer.ds@gmail.com
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+
+      <ul class="contact__socials">
+        <li><a href="https://github.com/SaadAhmedQadeer" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></li>
+        <!-- TODO: add real LinkedIn URL, then uncomment the line below:
+        <li><a href="https://www.linkedin.com/in/YOUR-HANDLE" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        -->
+        <li><a href="tel:+923019558446">+92 301 955 8446</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year"></span> Saad Ahmed Qadeer</p>
+    <p>Hand-built · <a href="https://github.com/SaadAhmedQadeer/SaadAhmedQadeer.github.io" target="_blank" rel="noopener">source</a></p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
